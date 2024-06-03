@@ -1,4 +1,4 @@
-# This is an azure PowerShell automation created to shutdown VMs with grace period of 14 day and then will send this VMs for detention to a pipeline.
+# This is an azure PowerShell automation created to shutdown VMs with grace period of 14 days, also it will create a csv file and send it to a blob storage, then will send this VMs for detention to a pipeline.
 The Vms are supposed to be deployed with terraform and the state file must be located in a blob storage in Azure the state file must be as follows VMname.tfstate
 This automation can be used as runbook, you can use the following method for authentication [Link](https://learn.microsoft.com/en-us/azure/automation/enable-managed-identity-for-automation#authenticate-access-with-system-assigned-managed-identity)
 
