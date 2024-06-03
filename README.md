@@ -20,6 +20,8 @@ $storageAccountKey
 
 $containerName 
 
+$vaultName
+
 
 ### decom_with_checks_and_file_output-backup_stop_delete points.ps1
 This script will search for a specific tag and if the tag is configured on the VM, it will be stopped and the backup disabled, also all recovery points will be deleted. The VM will receive new tag with the date 14 days from now so it can be deleted after that grace period
